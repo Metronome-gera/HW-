@@ -70,7 +70,7 @@ public class Main {
         System.out.println("\n\nЗадание №4");
 
         int[] arr = {1, 2, 3};
-            for(int i5 = 0; i5<arr.length ;i5 +=2) {
+            for(int i5 = 0; i5<arr.length ;i5 ++) {
                 if (arr[i5] % 2 != 0) {
                     arr[i5] = arr[i5] + 1;
                 }
